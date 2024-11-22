@@ -1,0 +1,170 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    margin: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.6em;
+    margin: 10px 0;
+    color: white;
+}
+
+/* List Item Styling */
+.item-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.item-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-list li:hover {
+    background-color: #f1f1f1;
+}
+
+.item-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.item-list a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styling */
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Edit Button */
+button.edit-button {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+button.edit-button:hover {
+    background-color: #218838; /* Darker Green */
+}
+
+/* Delete Button */
+button.delete-button {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+button.delete-button:hover {
+    background-color: #c82333; /* Darker Red */
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Button Container Styling */
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+button.create-button,
+button.back-home-button,
+button.save-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.create-button:hover,
+button.back-home-button:hover,
+button.save-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
